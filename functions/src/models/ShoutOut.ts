@@ -1,0 +1,10 @@
+import { ObjectId } from "mongodb";
+
+export default interface ShoutOut {
+  _id?: ObjectId;
+  to: string;
+  from: string;
+  message: string;
+  photoURL?: string;
+  image?: string;
+}
